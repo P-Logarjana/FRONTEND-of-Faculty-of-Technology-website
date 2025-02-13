@@ -1,5 +1,8 @@
 # Faculty of Technology Website 🖥️
 
+![image](https://github.com/user-attachments/assets/e7550441-f553-4e2d-aeaa-8c1b69ce1e1d)
+
+
 ## Project Overview 📚
 This project is part of the Practical for Internet Application Development. The goal is to develop a website for the Faculty of Technology that provides essential information and access to both academic and non-academic resources.
 
