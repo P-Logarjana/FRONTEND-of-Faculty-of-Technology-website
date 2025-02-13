@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="card2.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:url('bg.jpg');
+  background: size auto; 
+  width: auto;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #080808;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:rgb(15, 46, 221);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #1c49dd8c;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.algn{
+    text-align:end;
+    padding-left:80%;
+}
+.fot{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*manu border*/
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 500%;
+  font-family:fantasy;
+  color: rgb(253, 250, 252);
+  background-color: rgba(128, 216, 219, 0.562);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/*slideshow*/
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/*footer*/
+footer{
+    background-color: #030433b7;
+   padding-bottom: 2%;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="fot"><a href="home.html">Faculty of Technology</a></div>
+    <a href="home.html">Home</a>
+
+  <div class="dropdown">
+    <button class="dropbtn"> Department  
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="bst.html">BST</a>
+      <a href="ict.html">ICT</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn"> Academic  
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Staffs.html">Staffs</a>
+      <a href="Students.html">Students</a>
+    </div>
+  </div> 
+  <a href="Nonacadamic.html">Non Academic</a>
+  <div class="algn">
+    <div class="btn">
+        <a href="login.html">Login</a>
+    </div>
+        <div class="btn">
+        <a href="registration.html">Register</a>
+        </div>
+  </div>
+</div>
+
+<div class="container">
+<div>
+    <img src="fot.jpg" alt="Faculty of Technology" width="100%">
+    <div class="centered">FACULTY OF TECHNOLOGY</div>
+</div>
+</div>
+<br>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="fot1.jpg" style="width:100%">
+      <div class="text">FOT</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="fot.jpg" style="width:100%">
+      <div class="text">FOT</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="fot.jpg" style="width:100%">
+      <div class="text">FOT</div>
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+​<script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 3000); // Change image every 2 seconds
+    }
+    </script>
+
+   
+       <!--Card1-->
+  <div class="cards">
+    <div class="image">
+      <img src="home/ict.jpg" alt="fot">
+    </div>
+    <div class="title">
+      <h1>Dep. of ICT</h1>
+
+
+    </div>
+
+    <div class="des">
+      <p>The Bachelor of Information and Communication Technology degree is initiated at the Faculty of Technology realizing the importance of the degree program.UGC has mentioned Computer Society of Sri Lanka (CSSL)  </p>
+
+      <div class="buttons">
+      <button ><a href="ict.html">Learn More...</a></button></div>
+    </div>
+  </div>
+<!--Card2-->
+  <div class="cards">
+    <div class="image">
+      <img src="home/bst.jpg" alt="fot">
+
+
+    </div>
+    <div class="title">
+      <h1>Dep. of BST</h1>
+
+
+    </div>
+
+    <div class="des">
+      <p>Biosystems make functional connections among technologies in agriculture, animal aquaculture, biotechnology, food science, agri-engineering, economic and entrepreneurship, environment conservation</p>
+      <div class="buttons">
+      <button ><a href="bst.html">Learn More...</a></button></div>
+    </div>
+  </div>
+
+    <div class="abody">
+        <details open>
+          <summary>Faculty of Technology</summary>
+        <div class="description">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione adipisci illum error, hic expedita numquam impedit explicabo vitae iure quae vero autem quia quibusdam tempora atque harum perferendis praesentium dolor!</p>
+        </div>
+        </details>
+        <details open>
+        <summary>Department of ICT</summary>
+        <div class="description">
+        <p>Consequuntur earum pariatur dolorem repellat temporibus ducimus sunt suscipit repudiandae cupiditate in accusantium recusandae tempora sint eligendi, perferendis aspernatur architecto voluptas laborum adipisci neque voluptates consequatur. </p>
+        </div>
+        </details>
+        <details>
+        <summary>Deparment of ICT</summary>
+        <div class="description">
+        <p>Tenetur, ex delectus, perferendis aperiam voluptatem consequuntur molestiae ratione rerum vitae ab modi, minus placeat quis dignissimos. Dolorem quaerat odit, iusto laboriosam possimus, in architecto aliquam commodi sapiente saepe sequi at eligendi hic reprehenderit repellendus quos!</p>
+        </div>
+        </details>
+       </div>
+    
+     
+    
+
+
+   
+
+<div>
+        <footer>
+            <div class="footer-content">
+                <h3>FACULTY OF TECHNOLOGY</h3>
+                <p>
+                    Faculty of Technology of the South Eastern University of Sri Lanka (SEUSL) is proud to be one among the challenging universities and fully aware of the need and its potential for the task to establish a 'Faculty of Technology' under its purview. These facilities are situated around 0.5km from the Main University Park at Oluvil.
+                </p>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy; <a href="#">Foolish Developer</a>  </p>
+                        <div class="footer-menu" >
+                          <ul class="f-menu">
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="bst.html">BST</a></li>
+                            <li><a href="ict.html">ICT</a></li>
+                          
+                          </ul>
+                        </div>
+            </div>
+    </footer>
+</div>
+</body>
+</html>

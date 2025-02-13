@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="card.css">
+<style>
+/*footer*/
+footer{
+    background-color: #030433b7;
+   padding-bottom: 2%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image:url('bg.jpg');
+  background: size auto; 
+  width: auto;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #080808;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ 
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:dimgrey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.algn{
+    text-align:end;
+    padding-left:85%;
+}
+.fot{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*manu border*/
+.btn{
+    border: 2.5px solid white;
+    border-radius: 2px;
+    font-size: 16px;
+    background-color: black;
+
+}
+.align
+{
+  padding-left: 10%;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="fot"><a href="home.html">Faculty of Technology</a></div>
+  <a href="home.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn"> Department  
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="bst.html">BST</a>
+      <a href="ict.html">ICT</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn"> Academic  
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Staffs.html">Staffs</a>
+      <a href="Students.html">Students</a>
+    </div>
+  </div> 
+  <a href="Nonacadamic.html">Non Academic</a>
+  <div class="algn">
+    <button class="btn">
+        <a href="login.html">Login</a>
+    </button>
+        <button class="btn">
+        <a href="registration.html">Register</a>
+    </button>
+  </div>    
+</div>
+<div class="align"><h3>DEPARTMENT OF BIOSYSTEMS TECHNOLOGY</h3>
+
+  <div class="card">
+    <img src="fot1.jpg" alt="Avatar" style="width:100%">
+    <div class="ccontainer">
+      <h4><b>Dep.of BST</b></h4> 
+      <p>Biosystems make functional connections among technologies in agriculture, animal aquaculture, biotechnology, food science, agri-engineering, economic and entrepreneurship, environment conservation, plant sciences, and products and processes. Bachelor of Biosystems Technology (BBST) graduate will be academically excellent....
+        <a href="https://www.seu.ac.lk/ft/department_of_biosystem_technology.php"><img src="learn.png" alt="" width="90"  ></a></p> 
+     <br>
+      
+    </div>
+    
+  </div></div>
+
+<div>
+  <footer>
+      <div class="footer-content">
+          <h3>FACULTY OF TECHNOLOGY</h3>
+          <p>
+            Faculty of Technology of the South Eastern University of Sri Lanka (SEUSL) is proud to be one among the challenging universities and fully aware of the need and its potential for the task to establish a 'Faculty of Technology' under its purview. These facilities are situated around 0.5km from the Main University Park at Oluvil.
+        </p>
+          <ul class="socials">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+          </ul>
+      </div>
+      <div class="footer-bottom">
+          <p>copyright &copy; <a href="#">Foolish Developer</a>  </p>
+                  <div class="footer-menu" >
+                    <ul class="f-menu">
+                      <li><a href="home.html">Home</a></li>
+                      <li><a href="bst.html">BST</a></li>
+                      <li><a href="ict.html">ICT</a></li>
+                      <li><a href="">Blog</a></li>
+                    </ul>
+                  </div>
+      </div>
+</footer>
+</div>
+</body>
+</html>

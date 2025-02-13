@@ -1,0 +1,30 @@
+.card {
+    box-shadow: 20px 20px 25x 0 rgb(0, 0, 0);
+    transition: 0.5s;
+    width: 90%;
+    background-color: rgba(255, 251, 251, 0.603);
+
+  }
+
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+  }
+  
+ 
+  .align{
+    font-style: oblique;
+    font-display:inherit;
+    font-size:150%
+    
+  }
+
+  .buttoned{
+    align-self: auto;
+    width: 130px;
+    height: auto;
+    background-color: rgb(63, 96, 204);
+  }
+  .card p{
+    font: size 50px;;
+  }
